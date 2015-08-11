@@ -4,6 +4,7 @@ machine:
 dependencies:
   pre:
     - npm install -g dredd
+    - npm install -g api-mock
 test:
   pre:
     - dredd
