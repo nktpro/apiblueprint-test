@@ -8,4 +8,5 @@ dependencies:
 test:
   pre:
     - api-mock apiary.apib --port 15432
+        background: true
     - dredd
