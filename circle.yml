@@ -7,5 +7,5 @@ dependencies:
     - npm install -g api-mock
 test:
   pre:
-  	- api-mock apiary.apib --port 15432
+    - api-mock apiary.apib --port 15432
     - dredd
