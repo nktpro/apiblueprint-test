@@ -2,7 +2,7 @@ dry-run: null
 hookfiles: null
 language: nodejs
 sandbox: false
-server: api-mock apiary.apib --port 15432
+server: echo "Server"
 server-wait: 3
 init: false
 custom: {}
